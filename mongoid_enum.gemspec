@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "mongoid_enum"
-  s.version     = "1.1.0"
+  s.version     = "1.2.0"
   s.summary     = "Enum fields for Mongoid"
   s.description = "Fields with closed set of possible values and helper methods to " \
                   "query/set them by label."
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ">= 1.9.3"
 
-  s.add_runtime_dependency "mongoid", "~> 5.0"
+  s.add_runtime_dependency "mongoid", "~> 6.2"
 
   s.add_development_dependency "factory_girl", "~> 4.5"
   s.add_development_dependency "rubocop", "~> 0.35.1"
